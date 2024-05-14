@@ -1,0 +1,22 @@
+/* You can add global styles to this file, and also import other style files */
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import '@fortawesome/fontawesome-free/css/all.css';
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-image: url('/assets/background.jpg'); /* Adjust the path to your image */
+  background-size: cover; /* Cover the entire container */
+  background-position: center; /* Center the background image */
+  height: 100vh; /* Set the height to fill the viewport */
+
+}
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.card {
+  transition: transform 0.2s;
+}
+.card:hover {
+  transform: translateY(-5px);
+}

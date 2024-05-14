@@ -1,0 +1,14 @@
+
+p{
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  letter-spacing: 2px; /* Add letter spacing */
+  column-gap: 20px; /* Add column gap */
+}
+
+h1{
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+}
